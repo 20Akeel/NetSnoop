@@ -7,12 +7,12 @@ NetSnoop passively monitors your local network traffic and detects suspicious ac
 
 ## 🚀 Features
 
-- 🔍 Real-time packet sniffing using Scapy
-- 🧠 Simple threat detection logic (port abuse, IP repetition)
-- 📊 Interactive dashboard with Streamlit
-- 📝 Logs suspicious events to a CSV file
-- 📨 Optional: Email alerts for flagged threats
-- 💡 Easy to extend with more detection rules
+-  Real-time packet sniffing using Scapy
+-  Simple threat detection logic (port abuse, IP repetition)
+-  Interactive dashboard with Streamlit
+-  Logs suspicious events to a CSV file
+-  Optional: Email alerts for flagged threats
+-  Easy to extend with more detection rules
 
 ---
 
@@ -28,16 +28,9 @@ NetSnoop passively monitors your local network traffic and detects suspicious ac
 
 ---
 
-## 📸 Screenshot
+## How to Run
 
-> *[Insert dashboard screenshot or GIF here]*  
-(*To add yours: Save a screenshot as `dashboard.png` and commit it to the repo.*)
-
----
-
-## 🧑‍💻 How to Run
-
-### 🔧 Setup
+### Setup
 ```bash
 git clone https://github.com/20Akeel/NetSnoop.git
 cd NetSnoop
@@ -46,19 +39,19 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 📡 Start Sniffer
+### Start Sniffer
 ```bash
 sudo python sniffer.py
 ```
 
-### 📊 Launch Dashboard
+### Launch Dashboard
 ```bash
 streamlit run dashboard.py
 ```
 
 ---
 
-## ✅ Detection Logic
+## Detection Logic
 
 - Ports monitored: `22 (SSH)`, `23 (Telnet)`, `3389 (RDP)`
 - IPs flagged if repeated access attempts exceed threshold
@@ -66,18 +59,12 @@ streamlit run dashboard.py
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Want to improve NetSnoop?
 - Fork the repo
 - Add your feature or detection logic
 - Submit a pull request
-
----
-
-## 📄 License
-
-MIT License – see `LICENSE` file for details.
 
 ---
 
